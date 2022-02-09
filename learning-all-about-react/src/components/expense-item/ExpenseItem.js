@@ -1,6 +1,7 @@
 // js
 import ExpenseDate from "./ExpenseDate";
 import ExpensePrice from "./ExpensePrice";
+import Card from "./card";
 
 // css
 import './css/ExpenseItem.css';
@@ -9,7 +10,7 @@ function ExpenseItem(expenseItemProps) {
 
     return (
 
-        <div className="expense-item">
+        <Card className="expense-item">
                {/* passing expenseProps data to ExpenseDate component */}
                {/*
                     In php I am calling this func from another file and
@@ -20,7 +21,7 @@ function ExpenseItem(expenseItemProps) {
                 <h2>{expenseItemProps.title}</h2>
                 <ExpensePrice amount={expenseItemProps.amount}/>
             </div>
-        </div>
+        </Card>
 
     );
 }
