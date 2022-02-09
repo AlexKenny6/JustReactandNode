@@ -1,5 +1,5 @@
 // css
-import './css/card.css';
+import './card.css';
 
 function Card(props) {
 

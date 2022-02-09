@@ -3,7 +3,7 @@ import ExpenseItem from "./ExpenseItem";
 
 // css
 import './css/Expense.css';
-import Card from "./card";
+import Card from "../UI/card";
 
 
 function Expenses(expenses) {
